@@ -7,7 +7,7 @@ $(document).ready(function() {
     desc: "Welcome to my Portfolio!"
   }, {
     title: "Need a webstie",
-    desc: "Static and dynamic website based on wordpress, Php and different types of static websites designing and developement"
+    desc: "Static and dynamic website or a wordpress, Php I will get it done to you "
   }, {
     title: "Graphics",
     desc: "Graphic designing based on photoshop and logos. Live photoshoot and video making"
@@ -15,14 +15,16 @@ $(document).ready(function() {
     title: "Blogging",
     desc: "Creating and maintaining the blogs with regular updates"
   },{
-    title: "Maintanence",
-    desc: "Providig shared server at cheaper price and regular maintanence "
-  },{
     title: "Freelance for different services",
     desc: "SEO and SMM for a website, company or a product."
   },{
+    title: "My works",
+    desc: [
+      "check out some of my samples that my interest you ",["<a href='https://kuladeep93.github.io/portfolio' target='_blank'>here</a>"], " ".split("")
+    ]
+  },{
     title: "Feel free to Contact me",
-    desc: "Mobile: 8885129512 :: E-mail: s.kuladeep93@gmail.com "
+    desc: "Mobile:+91 8885129512 :: E-mail: s.kuladeep93@gmail.com "
   }];
   var currentPage = 0;
   //generate content
